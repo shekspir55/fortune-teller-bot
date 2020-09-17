@@ -221,5 +221,3 @@ const job2 = new CronJob(
 
 job.start();
 job2.start();
-
-client.postStatus(getMoonPhaseEmoji()).then(console.log).catch(console.log);
